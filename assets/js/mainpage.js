@@ -81,7 +81,7 @@ function searchListFunc(data){
             li.className = 'flex j-sb a-c'
             li.innerHTML = 
                             `
-                                <a href=${"/Superhero-Hunter-App-Coding-Ninjas/character.html?character=" + data[i].id}git class="flex j-sb a-c" style="text-decoration:none;color:black;">
+                                <a href=${"/superhero-hunter.github.io/character.html?character=" + data[i].id}git class="flex j-sb a-c" style="text-decoration:none;color:black;">
                                     <div class="left flex a-c">
                                         <img src="${data[i].thumbnail.path}.jpg" alt="" id="img1">
                                         <p class="charName" id="charName1">
